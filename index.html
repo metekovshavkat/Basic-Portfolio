@@ -1,37 +1,61 @@
-<!Doctype HTML>
-<html lang="en-us">
+
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+    img {
+        float: left;
+    }
+    }
+
+    .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    }
+    </style>
 </head>
 
 <body>
-    <header>
-        <ul id="nav">
-                <li><a href="about.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-    </header>
-            
+    <!-- Header and Page Links-->
+    <header id="mainhead">
         <div class="container">
-            <section id="main bio">
-                <h1>About Me</h1>
-                    <img id="bio image" src="assets/images/my-pic.JPG" height="200px" width="220px">
-                        <p>
-                            My name is Shavkat Metekov. I am from Turkmenistan, Central Asia. I have graduated with BAS in Computer Forensics and currently work at TCF as 'PC Specialist.' I like my job, but I would like get into development.
-            
-            
-                        </p>
-                    </section>
-                </div>
+            <a href="index.html" id="logo">Shavkat Metekov</a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
         </div>
+    </header>
+
+    <!-- Main Content of Profile Page -->
+    <div id="main-content" class="container">
+        <section class="main-section">
+            <h1>About Me</h1>
+        
+            <p><img src="assets/images/my-pic.JPG" alt="Shavkat Metekov" style="width: 182.594px; height:300px; margin-right:15px;"> I am from Turkmenistan, Central Asia. Two years ago graduated Metropolitan State University with BAS in Computer Forensics. I like troubleshooting computer issues so I enjoy my work for the most part
+                I also love nature and looking for bugs. That is why I decided I will work with code and possibly get into developing positions at my work. If you are curious, I have seen snow before I came to
+                Minnesota. Actually, we get cold temperature close to Minnesotan. However, extreme cold is colder in Minnesota and winter here is longer which makes it worse.
+            </p>
+            
+    </div>
+    </div>
+    </div>
+    <!-- Footer -->
+
+    <footer>
+        <div class="container">
+            <p>Copyright© U of M Bootcamp project</p>
+        </div>
+    </footer>
 
 </body>
-
-
 
 </html>
